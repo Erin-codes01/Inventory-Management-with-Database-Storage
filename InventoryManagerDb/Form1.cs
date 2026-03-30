@@ -44,39 +44,39 @@ namespace InventoryManagerDb
             var lblSearchCategory = new System.Windows.Forms.Label { Text = "Search Category:", Location = new Point(420, 50), AutoSize = true };
 
             // TextBoxes with wider width and aligned next to labels
-            txtName.Location = new Point(100, 7);
+            txtName.Location = new Point(140, 7);
             txtName.Size = new Size(220, 25);
 
-            txtCategory.Location = new Point(100, 47);
+            txtCategory.Location = new Point(140, 47);
             txtCategory.Size = new Size(220, 25);
 
-            txtQuantity.Location = new Point(100, 87);
+            txtQuantity.Location = new Point(140, 87);
             txtQuantity.Size = new Size(220, 25);
 
-            txtPrice.Location = new Point(100, 127);
+            txtPrice.Location = new Point(140, 127);
             txtPrice.Size = new Size(220, 25);
 
-            txtSearchName.Location = new Point(530, 7);
+            txtSearchName.Location = new Point(600, 7);
             txtSearchName.Size = new Size(220, 25);
 
-            txtSearchCategory.Location = new Point(530, 47);
+            txtSearchCategory.Location = new Point(600, 47);
             txtSearchCategory.Size = new Size(220, 25);
 
             // Buttons spaced horizontally with comfortable size below inputs
             btnAdd.Location = new Point(100, 170);
-            btnAdd.Size = new Size(80, 40);
+            btnAdd.Size = new Size(90, 40);
             btnAdd.Text = "Add";
 
             btnUpdate.Location = new Point(190, 170);
-            btnUpdate.Size = new Size(80, 40);
+            btnUpdate.Size = new Size(100, 40);
             btnUpdate.Text = "Update";
 
             btnDelete.Location = new Point(280, 170);
-            btnDelete.Size = new Size(80, 40);
+            btnDelete.Size = new Size(100, 40);
             btnDelete.Text = "Delete";
 
             btnSearch.Location = new Point(530, 85);
-            btnSearch.Size = new Size(80, 40);
+            btnSearch.Size = new Size(110, 40);
             btnSearch.Text = "Search";
 
             // DataGridView below all controls, filling width and height nicely
